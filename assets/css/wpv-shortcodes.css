@@ -1,0 +1,441 @@
+/*-----------------------
+/* Plugin: Vicodes
+/* Author: WPVita
+/* Version: 0.1
+/*-----------------------*/
+
+/*---[ Button ]---*/
+p{overflow: hidden;}
+a.wpv-button{
+  border-bottom: 0px;
+  color: #FFF;
+  text-decoration: none;
+}
+a.wpv-button:hover{
+  text-decoration: none;
+}
+.wpv-button{
+  background: #18be9c;
+  color: #fff;
+  font-size: 20px;
+  padding: 0 25px;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  line-height: 50px;
+  overflow: hidden;
+  display: inline-block;
+  width: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.wpv-button.large:first-child{
+  clear: both;
+}
+.wpv-button.large{
+  line-height: 60px;
+  font-size: 24px;
+}
+.wpv-button.fullwidth{
+  clear: both;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.wpv-button.left{
+  margin-right: 15px;
+  margin-bottom: 15px;
+  float: left;
+}
+.wpv-button.right{
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 0px;
+  float: right;
+}
+.wpv-button-center{
+  width: 100%;
+  text-align: center;
+}
+.wpv-button:hover{
+  color: #fff;
+  background: #13AE8E;
+}
+.red{ background: #f8715e; color: #FFF; }
+.red:hover{ background: #f8715e;}
+.red .hcolor{background: #f8715e; color: #FFF;}
+
+.pink{ background: #E91E63; color: #FFF;}
+.pink:hover{ background: #D81B60; }
+.pink .hcolor{background: #D81B60; color: #FFF;}
+
+.purple{ background: #cb7ee6; color: #FFF;}
+.purple:hover{ background: #cb7ee6; }
+.purple .hcolor{background: #cb7ee6; color: #FFF;}
+
+.deep-purple{ background: #673AB7; color: #FFF;}
+.deep-purple:hover{ background: #5E35B1; }
+.deep-purple .hcolor{background: #5E35B1; color: #FFF;}
+
+.indigo{ background: #3F51B5; color: #FFF;}
+.indigo:hover{ background: #3949AB; }
+.indigo .hcolor{background: #3949AB; color: #FFF;}
+
+.blue{ background: #1cb5ee; color: #FFF;}
+.blue:hover{ background: #1cb5ee; }
+.blue .hcolor{background: #1cb5ee; color: #FFF;}
+
+.light-blue{ background: #03A9F4; color: #FFF;}
+.light-blue:hover{ background: #039BE5; }
+.light-blue .hcolor{background: #039BE5; color: #FFF;}
+
+.cyan{ background: #00BCD4; color: #FFF;}
+.cyan:hover{ background: #00ACC1; }
+.cyan .hcolor{background: #00ACC1; color: #FFF;}
+
+.teal{ background: #009688; color: #FFF;}
+.teal:hover{ background: #00897B; }
+.teal .hcolor{ background: #00897B; }
+
+.green{ background: #4CAF50; color: #FFF;}
+.green:hover{ background: #43A047; }
+.green .hcolor{background: #43A047; color: #FFF;}
+
+.light-green{ background: #8BC34A; color: #FFF;}
+.light-green:hover{ background: #7CB342; }
+.light-green .hcolor{background: #7CB342; color: #FFF;}
+
+.lime{ background: #CDDC39; color: #111;}
+.lime:hover{ background: #C0CA33; color: #111;}
+.lime .hcolor{background: #C0CA33; color: #FFF;}
+
+.yellow{ background: #FFEB3B; color: #111;}
+.yellow:hover{ background: #FDD835; color: #111;}
+.yellow .hcolor{background: #FDD835; color: #FFF;}
+
+.amber{ background: #FFC107; color: #111;}
+.amber:hover{ background: #FFB300; color: #111;}
+.amber .hcolor{ background: #FFB300; color: #111;}
+
+.orange{ background: #FF9800; color: #111;}
+.orange:hover{ background: #FB8C00; color: #111;}
+.orange .hcolor{background: #FB8C00; color: #FFF;}
+
+.deep-orange{ background: #FF5722; color: #FFF;}
+.deep-orange:hover{ background: #F4511E;}
+.deep-orange .hcolor{background: #F4511E; color: #FFF;}
+
+.brown{ background: #795548; color: #FFF;}
+.brown:hover{ background: #6D4C41;}
+.brown .hcolor{background: #6D4C41; color: #FFF;}
+
+.gray{ background: #9E9E9E;}
+.gray:hover{ background: #757575;}
+.gray .hcolor{background: #757575; color: #FFF;}
+
+.blue-gray{ background: #607D8B; color: #FFF;}
+.blue-gray:hover{ background: #546E7A;}
+.blue-gray .hcolor{background: #546E7A; color: #FFF;}
+
+.black{ background: #000000; color: #FFF;}
+.black:hover{ background: #181818;}
+.black .hcolor{background: #181818; color: #FFF;}
+
+/*---[ Alert Message ]---*/
+.wpvsc-alert{
+  background: #FFF;
+  border: 1px solid #dee3e2;
+  margin-bottom: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.wpvsc-alert .close{
+  background: url(../img/ic-close.png) no-repeat #FFFFFF;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.wpvsc-alert.success{border-color: #8ADECD; color: inherit;}
+.wpvsc-alert.error{border-color: #f2afb7; color: inherit;}
+.wpvsc-alert.info{border-color: #8ed9ee; color: inherit;}
+.wpvsc-alert.warning{border-color: #eedf8e; color: inherit;}
+
+
+.wpvsc-alert .icon{
+  background: #336699;
+  height: 83px;
+  width: 83px;
+  float: left;
+  margin: 40px 30px 40px 50px;
+  text-align: center;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.wpvsc-alert .icon.success{ background: url(../img/ic-alert.png) no-repeat center top #8ADECD;}
+.wpvsc-alert .icon.error{background: url(../img/ic-alert.png) no-repeat center -83px #f2afb7;}
+.wpvsc-alert .icon.info{background: url(../img/ic-alert.png) no-repeat center -166px #8ed9ee;}
+.wpvsc-alert .icon.warning{background: #eedf8e;}
+
+.wpvsc-alert h4{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 20px;
+}
+.wpvsc-alert .msg{
+  overflow: hidden;
+  margin-right: 60px;
+  padding: 20px 0 20px 20px;
+}
+.wpvsc-alert .text{
+  line-height: 25px;
+}
+
+/*---[ Progress Bar ]---*/
+.wpv-progress-bar{
+  background: #e6ebee;
+  height: 36px;
+  width: 100%;
+  margin: 0 0 30px;
+  position: relative;
+  clear: both;
+  -webkit-border-radius: 40px;
+          border-radius: 40px;
+}
+.wpv-progress-bar span{
+  display: block;
+  height: 100%;
+  line-height: 36px;
+  width: 75%;
+  overflow: hidden;
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 15px;
+  -webkit-border-radius: 40px;
+          border-radius: 40px;
+}
+.wpv-progress-bar span .title{
+  font-size: 13px;
+  padding: 0 15px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  left: 0;
+  width: initial;
+  font-weight: normal;
+  animation: none;
+}
+
+/*---[ Column Grid ]---*/
+.grid_full_width { width: 100% }
+.grid_one_half { width: 48% }
+.grid_one_third { width: 30.66% }
+.grid_two_third { width: 65.33% }
+.grid_one_fourth { width: 22% }
+.grid_three_fourth { width: 74% }
+.grid_one_fifth { width: 16.8% }
+.grid_two_fifth { width: 37.6% }
+.grid_three_fifth { width: 58.4% }
+.grid_four_fifth { width: 67.2% }
+.grid_one_sixth { width: 13.33% }
+.grid_five_sixth { width: 82.67% }
+[class*='grid_'] {
+  position: relative;
+  margin-right: 4%;
+  margin-bottom: 40px;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.last{
+  margin-right: 0;
+}
+[class*='grid_'] iframe{
+  width: 100%;
+}
+[class*='grid_'] p:last-of-type{
+  margin-bottom: 0;
+}
+
+/* ---[ Vimeo Video ]--- */
+.wpv-vimeo-title{
+  font-weight: 600;
+  position: relative;
+}
+span.vimeo{
+  color: #888;
+  padding: 0 5px;
+  font-weight: normal;
+}
+.wpv-vimeo-author{
+  font-size: 13px;
+}
+.wpv-vimeo-duration{
+  font-weight: normal;
+  font-size: 13px;
+}
+.wpv-vimeo-description{
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  clear: both;
+  height: 1px;
+  margin: 1em 0;
+}
+
+/*--- [ Google Map ] ---*/
+.wpv-google-map{
+  clear: both;
+  margin-bottom: 40px;
+}
+
+/*--- [ Tabs ] ---*/
+.tab_widget {
+  display: block;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+.tab_widget ul.wps_tabs {
+  display: block;
+  position: relative;
+  list-style: none;
+  height: 40px;
+  border-bottom: 1px solid #DDD;
+  margin: 0;
+  padding: 0;
+}
+.tab_widget ul.wps_tabs li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 39px;
+  line-height: 39px;
+  border: 1px solid #ddd;
+  border-bottom: 0px;
+  border-left: none;
+  margin-bottom: -1px;
+  overflow: hidden;
+  position: relative;
+  background: #eee;
+}
+.tab_widget ul.wps_tabs li:first-child {
+  border-left: 1px solid #DDD
+}
+.tab_widget ul.wps_tabs li a {
+  text-decoration: none;
+  color: #444 !important;
+  font-size: 14px;
+  display: block;
+  padding: 0 15px;
+  outline: none;
+  border: none;
+}
+.tab_widget ul.wps_tabs li:first-child a { border-left: none }
+.tab_widget ul.wps_tabs li a:hover { background: none }
+.tab_widget ul.wps_tabs li.active, .tab_widget ul.wps_tabs li.active a:hover {
+  background: #FFF;
+  border-bottom: 1px solid #FFF;
+}
+.tab_widget ul.wps_tabs li.active { border-top: 1px solid #DDD }
+.tab_widget ul.wps_tabs li.active a { color: #777 }
+.tab_widget .tab_container {
+  display: block;
+  border-top: none;
+  overflow: hidden;
+  position: relative;
+  clear: both;
+  background: #FFF;
+  border: 1px solid #DDD;
+  border-top: none;
+}
+.tab_widget .tab_content {
+  display: block;
+  position: relative;
+  padding: 15px;
+}
+
+/*-[ Toggle ]-----------------------*/
+.toggle {
+    display: block;
+    position: relative;
+    margin: 0 0 20px 0;
+}
+.toggle .wps_togglet, .toggle .toggleta {
+    display: block;
+    position: relative;
+    background: #FFF;
+    border: 1px solid #dee3e2;
+    cursor: pointer;
+    margin: 0;
+}
+.toggle .wps_togglet span, .toggle .toggleta span {
+    display: block;
+    background: url("../img/toggle.png") no-repeat top right;
+    padding: 12px 20px;
+}
+.toggle .toggleta span { background: url("../img/toggle.png") no-repeat bottom right #18be9c; color: #FFF;}
+.toggle .togglec {
+    display: block;
+    position: relative;
+    padding: 15px;
+    background: #FFF;
+    border: 1px solid #DDD;
+    border-top: none;
+}
+
+/*-[ Accordion ]-----------------------*/
+.wp-vicodes-accordion, .wp-vicodes-accordion * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.wp-vicodes-accordion {
+  overflow: hidden;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+.wpv-accordion-section-title {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #dee3e2;
+  background: url("../img/toggle.png") no-repeat top right #FFFFFF;
+}
+.wpv-accordion-section-title:first-child {
+  border-bottom: none;
+}
+.wpv-accordion-section-title.active{
+  background: url("../img/toggle.png") no-repeat bottom right #18be9c;
+  color: #FFF;
+  text-decoration: none;
+}
+.wpv-accordion-section:last-child .wpv-accordion-section-title {
+  border-bottom: 1px solid #dee3e2;
+}
+.wpv-accordion-section-content {
+  padding: 15px;
+  display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  [class*='grid_']{
+    margin-right: 0;
+    float: none;
+    width: 100%;
+  }
+}

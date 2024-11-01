@@ -1,0 +1,122 @@
+
+i.wpvita-icon {
+    background: url('../img/favi.png') no-repeat 0 2px;
+    width: 72px !important;
+}
+
+#wpvita-box-head {
+  background: #18be9c;
+}
+
+#wpvita-box-title {
+  color: #FFF;
+}
+
+#wpvita-box-head .mce-close {
+  background: #13A587;
+}
+
+#wpvita-box-head .mce-close:before {
+  color: #FFF;
+}
+
+#wpvita-box .mce-foot .mce-btn {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#wpvita-box .mce-foot .mce-btn button {
+  background: #FFFFFF;
+  border: 1px solid #18be9c;
+  color: #18be9c;
+}
+
+#wpvita-box .mce-foot .mce-btn.mce-primary button {
+  background: #18BE9C;
+  color: #FFF;
+}
+
+#wpvita-box .mce-textbox:focus {
+  border-color: #18be9c;
+  -webkit-box-shadow: 0 0 2px rgba(30, 140, 190, .8);
+  box-shadow: 0 0 2px rgba(30, 140, 190, .8);
+}
+
+#wpvita-box .mce-foot {
+    margin-top: 15px !important;
+}
+
+.plugin-info {
+  margin: 20px 0;
+  background: #FFF;
+  padding: 20px 40px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.plugin-info .image {
+  width: 500px;
+  height: 300px;
+  background: #333;
+  margin-right: 40px;
+  float: left;
+}
+
+.plugin-info .info {
+  overflow: hidden;
+}
+
+.plugin-info .info h2 {
+  font-size: 26px;
+}
+
+.plugin-info .info p {
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.tabs-content {
+  width: 68%;
+  float: left;
+  margin-right: 2%;
+}
+
+.nav-tab {
+  margin-right: 10px;
+}
+
+.nav-tab-active,
+.nav-tab-active:hover {
+  background: #fff;
+}
+
+.sidebar {
+  width: 30%;
+  background: #FFF;
+  height: 500px;
+  overflow: hidden;
+}
+
+.tab-content {
+  background: #FFF;
+  padding: 20px;
+}
+
+
+/* HTML Editor Select Option */
+.wpvsc-edButton {
+  background-color: #47cab5;
+  border: none;
+  border-bottom: 2px solid #3baa98;
+  line-height: 25px !important;
+  height: 25px !important;
+  margin: 3px 8px 0;
+  color: #fff;
+}
+
+.icon-wpvsc {
+  background-image: url('../img/icon-wpvsc-vc.png') !important;
+}
